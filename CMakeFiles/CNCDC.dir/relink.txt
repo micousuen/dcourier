@@ -1,0 +1,1 @@
+/usr/bin/g++    -std=gnu++11 -L./lib/ -Wl,--no-as-needed -pthread -m32 -lfwlib32 -lstdc++    CMakeFiles/CNCDC.dir/src/main.cpp.o  -o CMakeFiles/CMakeRelink.dir/CNCDC -rdynamic -lpthread -lfwlib32 

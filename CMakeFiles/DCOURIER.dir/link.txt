@@ -1,0 +1,1 @@
+/usr/bin/g++    -std=gnu++11 -L./lib/ -Wl,--no-as-needed -pthread -m64 -lstdc++    CMakeFiles/DCOURIER.dir/src/main.cpp.o  -o exe/DCOURIER -rdynamic -lpthread 

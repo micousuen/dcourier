@@ -1,0 +1,1 @@
+/usr/bin/g++    -std=c++11    CMakeFiles/adapter.dir/main.cpp.o  -o adapter -rdynamic 

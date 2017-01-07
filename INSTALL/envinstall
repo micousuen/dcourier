@@ -1,0 +1,13 @@
+#!/bin/sh
+echo -e "\033[31mWarning: Be careful about this installation. Many related rpm will cover installed. Recommend only when no network available.You have 5 seconds to make decision. Break this using \"\033[34mCtrl+c\033[31m\". \033[0m"
+tput sc
+tput civis
+for i in {5..1}
+do 
+	echo -e -n "Time left:\033[32m $i \033[0m"
+	tput rc
+	sleep 1
+done
+#rpm -Uvh kernel-headers-3.10.0-327.28.3.el7.x86_64.rpm glibc-2.17-106.el7_2.8.x86_64.rpm glibc-common-2.17-106.el7_2.8.x86_64.rpm glibc-devel-2.17-106.el7_2.8.x86_64.rpm glibc-headers-2.17-106.el7_2.8.x86_64.rpm nss-softokn-freebl-3.16.2.3-14.2.el7_2.x86_64.rpm libgcc-4.8.5-4.el7.x86_64.rpm nss-softokn-freebl-3.16.2.3-14.2.el7_2.i686.rpm glibc-2.17-106.el7_2.8.i686.rpm  libgcc-4.8.5-4.el7.i686.rpm libstdc++-4.8.5-4.el7.i686.rpm glibc-devel-2.17-106.el7_2.8.i686.rpm --replacepkgs --replacefiles --oldpackage --nodeps
+
+

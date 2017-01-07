@@ -1,0 +1,1 @@
+/usr/bin/g++    -std=c++11    CMakeFiles/adapter.dir/main.cpp.o  -o CMakeFiles/CMakeRelink.dir/adapter -rdynamic /usr/lib/libfwlib32.so.1.0.0 
