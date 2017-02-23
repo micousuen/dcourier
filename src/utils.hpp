@@ -23,12 +23,13 @@
 #include <map>
 #include <vector>
 #include <iconv.h>
+#include <unistd.h>
+#include <sys/syscall.h>
 
 #include "Exception.h"
 
 // Include <log generator>,<type convertor>,<timestamp string generator>, <getcyclecount of cpu>
 namespace m_utils{
-    
     #if defined (__i386__)
     static __inline__ unsigned long long GetCycleCount(void)
     {
