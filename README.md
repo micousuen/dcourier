@@ -1,4 +1,6 @@
 
+This is write for FANUC CNC data collection and communication. Need use ethernet to connect to FANUC CNC. Need to set up CNC IP and port under setting. 
+
 ## Usage:
 1. Use "dcourier install" to install dcourier environment. 
   * Use "dcourier install online", if you can access to network.  
